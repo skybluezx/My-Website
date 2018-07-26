@@ -1,0 +1,8 @@
+{
+  "name": "zsky-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/skybluezx/zsky-web",
+  "author": "zhaixiao <zhaixiao@staff.weibo.com>",
+  "license": "MIT"
+}
