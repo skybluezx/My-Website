@@ -16,9 +16,11 @@ if __name__ == "__main__":
         handlers=[
             (r"/", IndexHandler),
             (r"/me", MeHandler),
-            (r"/blob", BlogHandler),
+            (r"/blog", BlogHandler),
         ],
-        template_path=os.path.join(os.path.dirname(__file__), "view")
+        template_path=os.path.join(os.path.dirname(__file__), "view"),
+        static_path=os.path.join(os.path.dirname(__file__), "public"),
+        debug=True
     )
     application.listen(8888)
     tornado.ioloop.IOLoop.current().start()

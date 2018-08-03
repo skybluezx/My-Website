@@ -7,4 +7,4 @@ import tornado.web
 
 class BlogHandler(tornado.web.RequestHandler):
     def get(self):
-        self.write("Hello, world")
+        self.render("../view/blog.html", title="blob")

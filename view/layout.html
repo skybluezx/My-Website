@@ -3,8 +3,117 @@
     <head>
         <meta charset="UTF-8">
         <title>{{title}}</title>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="{{ static_url('css/assets/bootstrap.min.css') }}">
+
+        <!-- Fontawesome Icon -->
+        <link rel="stylesheet" href="{{ static_url('css/assets/font-awesome.min.css') }}">
+
+        <!-- Owl Carousel -->
+        <link rel="stylesheet" href="{{ static_url('css/assets/owl.carousel.min.css') }}">
+        <link rel="stylesheet" href="{{ static_url('css/assets/owl.theme.default.min.css') }}">
+
+        <!-- Magnific Popup -->
+        <link rel="stylesheet" href="{{ static_url('css/assets/magnific-popup.css') }}">
+
+        <!-- Animate CSS -->
+        <link rel="stylesheet" href="{{ static_url('css/assets/animate.css') }}">
+
+        <!-- Custom Style -->
+        <link rel="stylesheet" href="{{ static_url('css/assets/normalize.css') }}">
+        <link rel="stylesheet" href="{{ static_url('css/style.css') }}">
+        <link rel="stylesheet" href="{{ static_url('css/assets/responsive.css') }}">
+
+        <!-- jQuery JS -->
+        <script src="{{ static_url('js/assets/vendor/jquery-1.12.0.min.js') }}"></script>
+
+        <!-- Bootstrap -->
+        <script src="{{ static_url('js/assets/bootstrap.min.js') }}"></script>
+
+        <!-- Sticky JS -->
+        <script src="{{ static_url('js/assets/jquery.sticky.js') }}"></script>
+
+        <!-- Owl Carousel -->
+        <script src="{{ static_url('js/assets/owl.carousel.min.js') }}"></script>
+
+        <!-- Filterizer -->
+        <script src="{{ static_url('js/assets/jquery.filterizr.min.js') }}"></script>
+
+        <!-- Magnific Popup -->
+        <script src="{{ static_url('js/assets/jquery.magnific-popup.min.js') }}"></script>
+
+        <!-- Counter Up -->
+        <script src="{{ static_url('js/assets/jquery.counterup.min.js') }}"></script>
+        <script src="{{ static_url('js/assets/waypoints.min.js') }}"></script>
+
+        <!-- WOW JS -->
+        <script src="{{ static_url('js/assets/wow.min.js') }}"></script>
+
+        <!-- Typed Js -->
+        <script src="{{ static_url('js/assets/typed.min.js') }}"></script>
+
+        <!-- Smooth Scroll -->
+        <script src="{{ static_url('js/assets/smooth-scroll.js') }}"></script>
+
+        <!-- Particles -->
+        <script src="{{ static_url('js/assets/particles.min.js') }}"></script>
+        <script src="{{ static_url('js/assets/particles-app.js') }}"></script>
+
+        <!-- Google Map -->
+        <script src="{{ static_url('js/assets/google-maps.js') }}"></script>
+
+        <!-- Custom JS -->
+        <script src="{{ static_url('js/plugins.js') }}"></script>
+        <script src="{{ static_url('js/custom.js') }}"></script>
     </head>
     <body>
-        {% block body %}{% end %}
+        <!--{% block body %}{% end %}-->
+        <!-- Header -->
+        <nav class="navbar navbar-default">
+             <div class="container">
+                 ...
+             </div>
+        </nav>
+
+        <!-- Home -->
+        <div class="particles-home" id="particles-home">
+            <div class="container">
+                <div class="row">
+                    ...
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio -->
+        <section class="portfolio text-center" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    ...
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog-->
+        <section class="home-blog text-center">
+            <div class="container">
+                <div class="row">
+                    ...
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact-->
+        <section class="about-contact" id="about-contact">
+            <div class="container">
+                <div class="row">
+                    ...
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer-->
+        <footer class="text-center">
+             ...
+        </footer>
     </body>
 </html>
